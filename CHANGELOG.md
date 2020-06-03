@@ -1,3 +1,7 @@
+# 0.6.0
+
+PLACEHOLDER
+
 # 0.5.0
 
 - New: `watchEffect` function, lingin up with the latest version of the RFC ([RFC docs](https://vue-composition-api-rfc.netlify.com/api.html#watcheffect)) (#275)
