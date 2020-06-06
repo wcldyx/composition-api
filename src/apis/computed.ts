@@ -39,7 +39,7 @@ export function computed<T>(
       },
     },
   });
-
+  vm && vm.$on('hook:destroyed', () => computedHost.$destroy());
   return createRef<T>({
     get: () => (computedHost as any).$$state,
     set: (v: T) => {
